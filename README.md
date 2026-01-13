@@ -4,10 +4,7 @@ FilmRate is a full-stack web application that allows users to discover movies an
 
 ## 🔗 Live Demo
 
-*If deployed online, add your live demo links here.*
-
-Frontend:  
-Backend:  
+Here: https://filmrate.onrender.com/
 
 ## 🚀 Features
 
