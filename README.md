@@ -1,144 +1,117 @@
-# Movie and TV Show Review App
+# FilmRate
 
-A full-stack web application where users can browse movies and TV shows, write reviews, and view ratings from other users.
+FilmRate is a full-stack web application that allows users to discover movies and TV shows, read and write reviews, and view community ratings. This project demonstrates real-world development skills including authentication, REST APIs, relational data modeling, and frontend-backend integration.
 
-This project is designed to practice and showcase full-stack development fundamentals.
+## 🔗 Live Demo
 
----
+*If deployed online, add your live demo links here.*
 
-## Project Overview
+Frontend:  
+Backend:  
 
-The Movie and TV Show Review App allows users to:
-- Browse a collection of movies and TV shows
-- View detailed information for each item
-- Create an account and log in
-- Write, edit, and delete reviews
-- View average ratings based on user reviews
+## 🚀 Features
 
-The focus of this project is end-to-end functionality, clean architecture, and real-world patterns such as authentication and relational data modeling.
+### Core Features
+- User authentication (sign up, login, logout)
+- Browse a curated collection of movies and TV shows
+- View detailed pages with ratings and reviews
+- Add, edit, and delete reviews (only for your own account)
+- Star rating system (1–5)
+- Average rating computed and displayed per item
 
----
+### UI & UX
+- Responsive, user-friendly interface
+- Clean layout with movie/show cards and review list
 
-## Project Goals
+## 🧠 Tech Stack
 
-- Build a complete full-stack application
-- Implement user authentication and authorization
-- Work with relational databases
-- Create a clean and intuitive user interface
-- Develop a portfolio-ready project
-
----
-
-## Target Users
-
-- Users who want to rate and review movies or TV shows
-- Users who want to see community feedback before watching content
-
----
-
-## Core Features (MVP)
-
-### Authentication
-- User registration
-- User login and logout
-- Secure password handling
-
-### Movies and TV Shows
-- Browse a list of movies and TV shows
-- View a detail page for each movie or show
-- Each item includes title, description, release year, poster image, and type (movie or TV)
-
-### Reviews
-- Logged-in users can write reviews
-- Reviews include a star rating (1 to 5) and text content
-- Users can edit or delete only their own reviews
-- Reviews are displayed on the movie or show detail page
-
-### Ratings
-- Average rating is calculated and displayed for each movie or show
-
----
-
-## Stretch Features (Future Improvements)
-
-- Search movies and TV shows by title
-- Filter by rating or content type
-- Pagination or infinite scrolling
-- Commenting on reviews
-- Like or dislike reviews
-- Personal watchlist or favorites
-- Admin panel for managing content
-
----
-
-## Planned Data Models
-
-### User
-- id
-- username
-- email
-- password (hashed)
-
-### Movie or TV Show
-- id
-- title
-- description
-- releaseYear
-- posterUrl
-- type (movie or tv)
-
-### Review
-- id
-- rating
-- content
-- userId
-- movieId
-- createdAt
-
----
-
-## Tech Stack (Planned)
-
-Frontend:
+**Frontend**
 - React
-- HTML, CSS, JavaScript
+- JavaScript (or TypeScript)
+- CSS / Tailwind / UI library (if used)
 
-Backend:
+**Backend**
 - Node.js
 - Express
 
-Database:
+**Database**
 - PostgreSQL
 
-Authentication:
-- JWT or session-based authentication
+**Authentication**
+- JSON Web Tokens (JWT)
 
-Architecture:
+**Architecture**
 - RESTful API
 - Client-server separation
 
+## 📊 Data Models
+
+### User
+- `id`
+- `username`
+- `email`
+- `password` (hashed)
+
+### Movie / TV Show
+- `id`
+- `title`
+- `description`
+- `releaseYear`
+- `posterUrl`
+- `type` (movie or tv)
+
+### Review
+- `id`
+- `rating`
+- `content`
+- `userId`
+- `movieId`
+- `createdAt`
+
+## 📦 Installation & Setup
+
+1. Clone the repository: git clone https://github.com/pesky-t6/FilmRate.git
+2. Install dependencies for both frontend and backend.
+3. Set up your environment variables (see below).
+4. Run migrations and seed your database.
+5. Start the backend and frontend servers.
+
+## 🔐 Environment Variables
+
+Your project should include a `.env` file (not committed to GitHub) with variables such as:
+
+DATABASE_URL=
+JWT_SECRET=
+PORT=
+
+*Do not hard-code sensitive keys in your codebase.*
+
+## 🔍 Security Checklist
+
+Before sharing your project, ensure:
+- No API keys or secrets are present in your repo
+- Sensitive values are in environment variables
+- Passwords are hashed before storage
+- Authorization checks protect sensitive routes
+
+## ✨ What This Project Shows
+
+FilmRate highlights:
+- Complete CRUD functionality
+- Authentication and authorization workflows
+- Relational data modeling
+- REST API design
+- Frontend-backend integration
+- Clean, maintainable project structure
+
+## 🧪 Possible Future Improvements
+
+- Search and filtering
+- Pagination
+- Comment threads
+- Likes / dislikes on reviews
+- Admin panel for moderation
+
 ---
 
-## Out of Scope for MVP
-
-- Payments or subscriptions
-- Real-time chat
-- Recommendation algorithms
-- Social media integrations
-
----
-
-## What This Project Demonstrates
-
-- Full CRUD functionality
-- Authentication and authorization
-- Relational database design
-- REST API development
-- Frontend and backend integration
-- Clean project structure
-
----
-
-## Project Status
-
-In development. Features are being implemented incrementally, starting with the MVP.
+Thanks for checking out **FilmRate**! If you’d like suggestions for next steps or improvements, feel free to ask.
