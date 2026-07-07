@@ -2,11 +2,11 @@
 
 FilmRate is a full-stack web application that allows users to discover movies and TV shows, read and write reviews, and view community ratings. This project demonstrates real-world development skills including authentication, REST APIs, relational data modeling, and frontend-backend integration.
 
-## 🔗 Live Demo
+## Live Demo
 
 Here: https://filmrate.onrender.com/
 
-## 🚀 Features
+## Features
 
 ### Core Features
 - User authentication (sign up, login, logout)
@@ -20,7 +20,7 @@ Here: https://filmrate.onrender.com/
 - Responsive, user-friendly interface
 - Clean layout with movie/show cards and review list
 
-## 🧠 Tech Stack
+## Tech Stack
 
 **Frontend**
 - React
@@ -41,7 +41,7 @@ Here: https://filmrate.onrender.com/
 - RESTful API
 - Client-server separation
 
-## 📊 Data Models
+## Data Models
 
 ### User
 - `id`
@@ -65,7 +65,7 @@ Here: https://filmrate.onrender.com/
 - `movieId`
 - `createdAt`
 
-## 📦 Installation & Setup
+## Installation & Setup
 
 1. Clone the repository: git clone https://github.com/pesky-t6/FilmRate.git
 2. Install dependencies for both frontend and backend.
@@ -73,7 +73,7 @@ Here: https://filmrate.onrender.com/
 4. Run migrations and seed your database.
 5. Start the backend and frontend servers.
 
-## 🔐 Environment Variables
+## Environment Variables
 
 Your project should include a `.env` file (not committed to GitHub) with variables such as:
 
@@ -83,15 +83,7 @@ PORT=
 
 *Do not hard-code sensitive keys in your codebase.*
 
-## 🔍 Security Checklist
-
-Before sharing your project, ensure:
-- No API keys or secrets are present in your repo
-- Sensitive values are in environment variables
-- Passwords are hashed before storage
-- Authorization checks protect sensitive routes
-
-## ✨ What This Project Shows
+## What This Project Shows
 
 FilmRate highlights:
 - Complete CRUD functionality
@@ -101,7 +93,7 @@ FilmRate highlights:
 - Frontend-backend integration
 - Clean, maintainable project structure
 
-## 🧪 Possible Future Improvements
+## Possible Future Updates
 
 - Search and filtering
 - Pagination
